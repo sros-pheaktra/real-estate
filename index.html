@@ -1,0 +1,445 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link rel="stylesheet" href="../src/output.css"> -->
+    
+    <!-- font-aweesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-50">
+    <header class="bg-transparent fixed inset-x-0 top-0 z-50">
+        <div
+            class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-100 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+                <p class="text-sm/6 text-gray-900">
+                    <strong class="font-semibold">July Open House</strong><svg viewBox="0 0 2 2"
+                        class="mx-2 inline size-0.5 fill-current" aria-hidden="true">
+                        <circle cx="1" cy="1" r="1" />
+                    </svg>Join us on July 7, Toul Kork, Phnom Penh to see what is coming next.
+                </p>
+                <a href="#"
+                    class="flex-none rounded-full bg-blue-900 px-3.5 py-1 text-sm font-semibold text-white shadow-xs hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Register
+                    now <span aria-hidden="true">&rarr;</span></a>
+            </div>
+            <div class="flex flex-1 justify-end">
+                <button type="button" class="-m-3 p-3 focus-visible:-outline-offset-4">
+                    <span class="sr-only">Dismiss</span>
+                    <svg class="size-5 text-gray-900" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                        data-slot="icon">
+                        <path
+                            d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- navbar -->
+        <nav class="bg-white shadow-sm flex items-center justify-between p-4 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Your Company</span>
+                    <img class="h-auto w-15"
+                        src="assets/images/real_estate_logo_no_bg.png"
+                        alt="real_estate_logo_no_bg" />
+                </a>
+            </div>
+            <div class="flex lg:hidden">
+                <button type="button"
+                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-blue-700">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true" data-slot="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+                <a href="index.html" class="text-md font-semibold text-blue-900 hover:underline hover:text-blue-700">Home</a>
+                <a href="buy.html" class="text-md font-semibold text-blue-900 hover:underline hover:text-blue-700">Buy</a>
+                <a href="rent.html" class="text-md font-semibold text-blue-900 hover:underline hover:text-blue-700">Rent</a>
+                <a href="agent.html" class="text-md font-semibold text-blue-900 hover:underline hover:text-blue-700">Agent </a>
+                <a href="about_us.html" class="text-md font-semibold text-blue-900 hover:underline hover:text-blue-700">About</a> 
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end hover:object-scale-down">
+                <a href="log_in.html" class="text-md font-semibold hover:bg-blue-900 hover:text-white text-blue-900 p-2 border rounded-full w-25 text-center ">Log in</a>
+                <a href="sign_up.html" class="text-md font-semibold hover:text-blue-700 text-blue-900 p-2 rounded-full w-25 text-center ">Sign Up <span
+                        aria-hidden="true">&rarr;</span></a>
+            </div>
+        </nav>
+    </header>
+    <main class="relative isolate px-2 pt-14 lg:px-8 bg-no-repeat bg-cover w-full h-full bg-[url('https://www.decorilla.com/online-decorating/wp-content/uploads/2024/01/Modern-rustic-living-room-by-Decorilla-scaled.jpeg')]">
+        <div class="mx-auto max-w-3xl py-32 sm:py-48">
+            <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+                <div
+                    class="relative rounded-full px-3 py-1 text-sm/6 text-white ring-1 ring-gray-500 hover:ring-gray-900/20">
+                    Visit upcoming events. <a href="#" class="font-semibold text-blue-900 hover:underline"><span
+                            class="absolute inset-0" aria-hidden="true"></span>Read more <span
+                            aria-hidden="true">&rarr;</span></a>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <h1 class="text-4xl font-semibold tracking-tight text-balance capitalize text-gray-100 sm:text-7xl">Where Every Key Unlocks a New Chapter</h1>
+                <p class="mt-2 mx-20 text-lg font-medium text-pretty text-gray-800 sm:text-xl/8Y">Discover beautiful houses in your favorite neighborhoods<br>Effortless  Reliable  Just for you</p>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="#"
+                        class="rounded-full bg-blue-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-transparent hover:border hover:border-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get
+                        started</a>
+                    <a href="#" class="rounded-full bg-transparent border border-white px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:border-gray-300 hover:text-gray-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Learn more <span
+                            aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </div>
+    </main>
+ 
+    <!-- Testimonil -->
+    <section class="py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:mx-0">
+                <h2 class="text-2xl  tracking-tight text-pretty text-gray-900 sm:text-5xl">From the blog</h2>
+                <p class="mt-2 text-lg/8 text-gray-600">Learn how our customers feedback about our services.</p>
+            </div>
+            <div class="mx-auto mt-5 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                <article class="flex max-w-xl flex-col items-start justify-between border border-gray-200 p-4 rounded-xl">
+                    <div class="flex items-center gap-x-4 text-xs">
+                        <time datetime="2020-03-16" class="text-gray-500">Apr 30, 2020</time>
+                        <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Khan Sen Sok</a>
+                    </div>
+                    <div class="group relative">
+                        <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                            <a href="#">
+                            <span class="absolute inset-0"></span>
+                            Reliable website
+                            </a>
+                        </h3>
+                        <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600"><i>“As a first-time buyer, I was nervous, but the website made everything simple. The filters helped me narrow down exactly what I needed. Great experience!”</i></p>
+                    </div>
+                    <div class="relative mt-8 flex items-center gap-x-4">
+                        <img src="https://news.tigerwoods.com/wp-content/uploads/sites/7/2019/08/Picture-A.-TGR-Foundation.-Earl-Woods-Scholar-Program.-Ivy-Pham-300x300.png" alt="" class="size-10 rounded-full bg-gray-50" />
+                        <div class="text-sm/6">
+                            <p class="font-semibold text-gray-900">
+                            <a href="#">
+                                <span class="absolute inset-0"></span>
+                                Kanika Sophal
+                            </a>
+                            </p>
+                            <p class="text-gray-600">Financial Consulter / ABA</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex max-w-xl flex-col items-start justify-between border border-gray-200 p-4 rounded-xl">
+                    <div class="flex items-center gap-x-4 text-xs">
+                        <time datetime="2020-03-16" class="text-gray-500">Oct 25, 2020</time>
+                        <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Khan Toul Kork</a>
+                    </div>
+                    <div class="group relative">
+                        <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                            <a href="#">
+                            <span class="absolute inset-0"></span>
+                            Various Choice
+                            </a>
+                        </h3>
+                        <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600"><i>“I found my dream home in just three days! The listings were clear, updated, and the agents were super responsive. Highly recommend this platform!”</i></p>
+                    </div>
+                    <div class="relative mt-8 flex items-center gap-x-4">
+                        <img src="https://images.squarespace-cdn.com/content/v1/592738c58419c2fe84fbdb81/526bab52-e6e3-4cae-88e2-95dc3e7b73d9/StudentHeadshots_Homepage_Owen_SEO.jpg?format=300w" alt="" class="size-10 rounded-full bg-gray-50" />
+                        <div class="text-sm/6">
+                            <p class="font-semibold text-gray-900">
+                            <a href="#">
+                                <span class="absolute inset-0"></span>
+                                Channaro Ponleu
+                            </a>
+                            </p>
+                            <p class="text-gray-600">Professor / AUPP</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex max-w-xl flex-col items-start justify-between border border-gray-200 p-4 rounded-xl">
+                    <div class="flex items-center gap-x-4 text-xs">
+                        <time datetime="2020-03-16" class="text-gray-500">May 18, 2020</time>
+                        <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Khan 7 Makara</a>
+                    </div>
+                    <div class="group relative">
+                        <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                            <a href="#">
+                            <span class="absolute inset-0"></span>
+                            Smooth!
+                            </a>
+                        </h3>
+                        <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600"><i>“Smooth process from start to finish. I even got a virtual tour before visiting in person. I’ll definitely use this site again if I decide to move!”</i></p>
+                    </div>
+                    <div class="relative mt-8 flex items-center gap-x-4">
+                        <img src="https://images.squarespace-cdn.com/content/v1/592738c58419c2fe84fbdb81/bf323bf7-bf64-48ef-b618-a2abc704cff3/StudentHeadshots_FirstImpressionsMatter_Homepage_Square.jpg?format=300w" alt="" class="size-10 rounded-full bg-gray-50" />
+                        <div class="text-sm/6">
+                            <p class="font-semibold text-gray-900">
+                            <a href="#">
+                                <span class="absolute inset-0"></span>
+                                Piseth Mao
+                            </a>
+                            </p>
+                            <p class="text-gray-600">IT Manager / Woori</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Trending -->
+    <section class="py-10 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto lg:mx-0">
+                    <h2 class="text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl capitalize">Most popular home style</h2>
+                    <p class="my-2 text-md/8 text-gray-600">What Buyers Are Loving Now</p>
+            </div>
+            <div class="container grid grid-cols-1 md:grid-cols-3 grid-row-auto w-full h-auto gap-4 shadow-xs overflow-hidden ">
+                <div class="col-span-1 sm:col-span-2 relative">
+                    <a href="#" class=""><img src="https://marbella1.es/cdn/shop/articles/what-luxury-villas-will-be-ready-in-2025.png?v=1734251278&width=1600" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Luxury Villas</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://preciseirondoors.com/wp-content/uploads/2021/12/modern-house-with-garage-and-car.jpg" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Modern Minimalist Homes</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://cdn-klmof.nitrocdn.com/qwEKzfZlawVbivmwyMhZsSeDSDXrDIQn/assets/images/optimized/rev-c3c7455/designbuild.villas/wp-content/uploads/2024/10/67649-1.jpg" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Smart Homes</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-2 relative">
+                    <a href="#" class=""><img src="https://molathzsmarthome.com/wp-content/uploads/2022/08/Home-Tech-6-1024x547.jpg" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Smart Homes</h3>
+                    </a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <!-- Buy -->
+    <section class="py-4 sm:py-8">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto lg:mx-0">
+                    <h2 class="text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl capitalize mb-2">Buy</h2>
+            </div>
+            <div class="container grid grid-cols-1 md:grid-cols-3 grid-row-auto w-full h-auto gap-4 shadow-xs overflow-hidden ">
+                <div class="col-span-1 sm:col-span-2 relative">
+                    <a href="#" class=""><img src="https://construction-property.com/wp-content/uploads/2020/07/Grand-PP1.jpg" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Villa</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/163059318.jpg?k=72ab2f3501a693bf43e3fedebc50ffda172ddf13f1938eb2d5187c2e29de5cbc&o=&hp=1" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Apartment</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://sokharealestate.com.kh/assets/img/projects/project_3/flat_house_e2/crown_flat_house-retina.jpg" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Flat House</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://www.globallistings.com/listings/images/3614768/1531910519.jpg" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Condo</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://www.totalhomeenterprise.com/images/1560579063.Twin%20Villa%2003.jpg" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Twin Villa</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Rent -->
+    <section class="py-4 sm:py-8">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto lg:mx-0">
+                    <h2 class="text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl capitalize mb-2">Rent/Short Stay</h2>
+            </div>
+            <div class="container grid grid-cols-1 md:grid-cols-3 grid-row-auto w-full h-auto gap-4 shadow-xs overflow-hidden ">
+                <div class="col-span-1 sm:col-span-2 relative">
+                    <a href="#" class=""><img src="https://images.realestate.com.kh/listings/2021-09/flat-house-2_5hnaCvQ.jpeg" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Flat House</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://camrealtyservice.com/wp-content/uploads/2024/11/Aura-condominium-for-rent-in-Daun-Penh-Phnom-Penh-.jpg" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Condo</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/117337695.jpg?k=ef306b76ac99545541dd5a9c89322608b5a99cc49853be48ac28109064924e21&o=&hp=1" alt="" class="w-full h-72 object-cover rounded-sm">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Apartment</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/220263511.jpg?k=9b2dac654b6c041cc47a7226d9c4e9ccb733ddd01e29805fa04f492a340e6ef2&o=&hp=1" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Hostel</h3>
+                    </a>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative">
+                    <a href="#" class=""><img src="https://menluxury.net/storage/projects/galleries/resize/9ba526d330a4d44fddf202a6ee5de10b.jpg" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-xl font-semibold text-white absolute top-2 left-2">Villa</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Favorite Location -->
+    <section class="py-4 sm:py-8">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div>
+                <h2 class="text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl capitalize mb-2">Favorite Location</h2>
+            </div>
+            <div class="container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 grid-row-auto w-full h-auto gap-4 overflow-hidden ">
+                <div class="col-span-1 sm:col-span-1 relative rounded-lg bg-white">
+                    <a href="#" class=""><img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/b8/be/0f.jpg" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-2xl font-bold shadow-xs text-white absolute top-30 left-19">Phnom Penh</h3>
+                    </a>
+                    <div class="flex justify-between p-4 text-center">
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Rent</h3>
+                            <p class="text-xl font-bold text-blue-800">12543</p>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Sale</h3>
+                            <p class="text-xl font-bold text-blue-800">2611</p>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Short Stay</h3>
+                            <p class="text-xl font-bold text-blue-800">10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative rounded-lg bg-white">
+                    <a href="#" class=""><img src="https://i0.wp.com/thalias.com.kh/wp-content/uploads/2022/11/The-Best-of-Siem-Reap-at-your-Fingertips.jpeg?fit=1180%2C787&ssl=1" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-2xl font-bold shadow-xs text-white absolute top-30 left-21">Siem Reap</h3>
+                    </a>
+                    <div class="flex justify-between p-4 text-center">
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Rent</h3>
+                            <p class="text-xl font-bold text-blue-800">8891</p>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Sale</h3>
+                            <p class="text-xl font-bold text-blue-800">105</p>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Short Stay</h3>
+                            <p class="text-xl font-bold text-blue-800">10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative rounded-lg bg-white">
+                    <a href="#" class=""><img src="https://visitlocaltravel.com/blog/wp-content/uploads/2024/01/Sokha-Beach-Sihanoukville-3.png" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-2xl font-bold shadow-xs text-white absolute top-30 left-15">Preah Sihanouk</h3>
+                    </a>
+                    <div class="flex justify-between p-4 text-center">
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Rent</h3>
+                            <p class="text-xl font-bold text-blue-800">1850</p>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Sale</h3>
+                            <p class="text-xl font-bold text-blue-800">68</p>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Short Stay</h3>
+                            <p class="text-xl font-bold text-blue-800">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-1 sm:col-span-1 relative rounded-lg bg-white">
+                    <a href="#" class=""><img src="https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Apr2024/140424_kampot_ig.jpg?itok=nFu0VoBZ" alt="" class="w-full h-72 object-cover rounded-lg">
+                    <h3 class="text-2xl font-bold shadow-xs text-white absolute top-30 left-23">Kampot</h3>
+                    </a>
+                    <div class="flex justify-between p-4 text-center">
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Rent</h3>
+                            <p class="text-xl font-bold text-blue-800">2552</p>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Sale</h3>
+                            <p class="text-xl font-bold text-blue-800">185</p>
+                        </div>
+                        <div>
+                            <h3 class="text-sm font-medium text-gray-800">Short Stay</h3>
+                            <p class="text-xl font-bold text-blue-800">0</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer class="p-8 w-full mt-20 bg-gray-200">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-10 max-w-7xl mx-auto">
+            <!-- Left Logo and Info -->
+            <div class="md:w-1/2">
+                <img src="assets/images/real_estate_logo_no_bg.png" alt="real_estate_logo_no_bg" class="w-20">
+                <p class="text-lg text-gray-800 capitalize">Where Every Key Unlocks a New Chapter</p>
+                <hr class="border-0 h-[1px] bg-gray-300 mt-5 w-[55%]">
+                <div class="flex mt-4 space-x-4 text-gray-800">
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook hover:text-blue-400"></i><span class="sr-only">Facebook</span></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-square-instagram hover:text-blue-400"></i><span class="sr-only">Instagram</span></a>
+                    <a href="#" title="Twitter"><i class="fa-brands fa-x-twitter hover:text-blue-400"></i><span class="sr-only">Twitter</span></a>
+                    <a href="#" title="YouTube"><i class="fa-brands fa-youtube hover:text-blue-400"></i><span class="sr-only">YouTube</span></a>
+                    <a href="#" title="GitHub"><i class="fa-brands fa-github hover:text-blue-400"></i><span class="sr-only">GitHub</span></a>
+            </div>
+            </div>
+
+            <!-- Right Grid Navigation -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center md:text-left text-sm text-gray-500 w-full md:w-1/2">
+            <!-- Column 1 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Navigation</h3>
+                <ul>
+                <li><a href="buy.html" class="hover:underline">Buy</a></li>
+                <li><a href="rent.html" class="hover:underline">Rent</a></li>
+                <li><a href="agent.html" class="hover:underline">Agent</a></li>
+                <li><a href="about_us.html" class="hover:underline">About</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 2 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Support</h3>
+                <ul>
+                <li><a href="#" class="hover:underline">FAQ</a></li>
+                <li><a href="#" class="hover:underline">Service</a></li>
+                <li><a href="#" class="hover:underline">Guide</a></li>
+                <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Legal</h3>
+                <ul>
+                <li><a href="#" class="hover:underline">Term of service</a></li>
+                <li><a href="#" class="hover:underline">Privacy policy</a></li>
+                <li><a href="#" class="hover:underline">License</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <hr class="my-6 mx-8 border-0 h-[1px] bg-gray-300">
+        <div class="text-center">
+            <p class="text-gray-800 text-sm">&copy; 2024 Real Estate, All rights reserved.</p>
+        </div>
+    </footer>  
+</body>
+</html>
